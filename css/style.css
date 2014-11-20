@@ -1,0 +1,20 @@
+
+.jumbotron {
+	background-image: url('http://upload.wikimedia.org/wikipedia/commons/5/59/University_of_Toronto_May_2009.jpg');
+	background-size: 1216px 912px;
+	width: 1000px;
+	height: 800px; 
+}
+
+.jumbotron h1 {
+	color: #FEFFF1;
+	padding-left: 44px;
+	text-align: center;
+}
+
+.jumbotron h2 {
+	color: #FEFFF1;
+	text-align: center;
+	padding-right: 268px;
+}
+

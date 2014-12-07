@@ -1,20 +1,51 @@
 
+
 .jumbotron {
-	background-image: url('http://upload.wikimedia.org/wikipedia/commons/5/59/University_of_Toronto_May_2009.jpg');
-	background-size: 1216px 912px;
-	width: 1000px;
-	height: 800px; 
+	background-color: lavender;
+	position: relative;
 }
 
-.jumbotron h1 {
+.jumbotron-overlay {
+	position: absolute;
+	top: 25%;
+	left: 0%;
+    width: 100%;
+    text-align: center;
+}
+
+.jumbotron-overlay h1 {
 	color: #FEFFF1;
-	padding-left: 44px;
 	text-align: center;
 }
 
-.jumbotron h2 {
+.jumbotron-overlay h2 {
 	color: #FEFFF1;
 	text-align: center;
-	padding-right: 268px;
+	
+	/*padding-right: 268px;*/
 }
 
+#portrain {
+	width: 500px;
+	height: auto;
+}
+
+.main {
+	padding: 5px 8px;
+	margin: 5px;
+}
+
+.blog-title {
+	color: azure;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    #portrait {
+    	max-width: 360px;
+    	max-height: 388px;
+    }
+    
+    .jumbotron-overlay h1, h2{
+    	margin: 2px auto;
+    }
+}

@@ -38,6 +38,10 @@
 |
 */
 
+$route['blog/create'] = 'blog/create';
+$route['blog/update'] = 'blog/update';
+$route['blog/(:any)'] = 'blog/view/$1';
+$route['blog'] = 'blog';
 $route['news/create'] = 'news/create';
 $route['news/(:any)'] = 'news/view/$1';
 $route['news'] = 'news';
